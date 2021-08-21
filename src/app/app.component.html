@@ -1,0 +1,4 @@
+<div>
+  <app-newaccount (accountData)="getAccountData($event)"></app-newaccount>
+  <app-account *ngFor="let account of accounts" [cc]="account" ></app-account>
+</div>

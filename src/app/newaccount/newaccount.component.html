@@ -1,0 +1,11 @@
+<div class="container">
+    <label for="">Account Name:</label>
+    <input type="text" placeholder="Account name" #newAccount class="form-control mt-10"/>
+    <select name="" class="form-control" #status>
+        <option value="active">Active</option>
+        <option value="inactive">Inactive</option>
+        <option value="hidden">hidden</option>
+    </select>
+    <button class="btn btn-primary" (click)="addNewAccount(newAccount.value, status.value)">Add new Account</button>
+</div>
+

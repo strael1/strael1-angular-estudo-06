@@ -1,0 +1,186 @@
+/* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files */
+/*************************************
+               NORMALIZE
+**************************************/
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    line-height: 1.8;
+    text-align: justify;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+
+
+/*************************************
+                HERPERS
+**************************************/
+.mt-0 {
+    margin-top: 0;
+}
+
+.mb-0 {
+    margin-bottom: 0;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.mt-50 {
+    margin-top: 50px;
+}
+
+.mt-80 {
+    margin-top: 80px;
+}
+
+.mt-100 {
+    margin-top: 100px;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.mt-5 {
+    margin-top: 5px;
+}
+
+.mb-5 {
+    margin-bottom: 5px;
+}
+
+
+
+.pt-80 {
+    padding-top: 80px;
+}
+
+.pt-150 {
+    padding-top: 150px;
+}
+
+.text-muted {
+    font-size: 23px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-white {
+    color: #fff;
+}
+
+.display-1 {
+    font-weight: normal;
+    font-size: 55px;
+}
+
+.display-2 {
+    font-weight: normal;
+    font-size: 50px;
+}
+
+.display-3 {
+    font-weight: normal;
+    font-size: 40px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.d-block {
+    display: block!important;
+}
+
+.d-none {
+    display: none!important;
+}
+
+.grid {
+    display: grid;
+} 
+
+.grid-template-column-2 {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 25px;
+}
+
+.d-grid-gap-column-25 {
+    grid-column-gap: 25px;
+}
+
+.d-grid-gap-row-25 {
+    grid-row-gap: 25px;
+}
+
+.d-grid-2 {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.d-grid-3 {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.d-grid-4 {
+    grid-template-columns: repeat(4,1fr);
+}
+
+.btn {
+    padding: 15px;
+    outline: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.default {
+    background: #2980b9;
+    color: #fff;
+    border: solid 1px #2980b9;
+}
+
+.btn-primary {
+    background: #27ae60;
+    color: #fff;
+    border: solid 1px #27ae60;
+}
+
+.form-control {
+  padding: 15px;
+  outline: none;
+  font-size: 16px;
+  color: #444;
+  border: solid 1px #cecece;
+  box-shadow: 0 0 10px rgba(0,0,0, .1); 
+  width: 100%;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+
+
+
+

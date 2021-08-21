@@ -1,0 +1,23 @@
+.card-service {
+    padding: 20px;
+    border-radius: 10px;
+    border: solid 1px #cecece;
+    box-shadow: 0 0 10px rgba(0,0,0, .1);
+}
+
+.container-card {
+    margin: 20px auto 0 ;
+    width: 40%;
+}
+
+.main-actions {
+    display: flex;
+}
+
+.main-actions li {
+    border-radius: 5px;
+    border: solid 1px #cecece;
+    padding: 15px;
+    margin-right: 20px;
+    cursor: pointer;
+}
